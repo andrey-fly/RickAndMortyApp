@@ -1,5 +1,5 @@
 //
-//  RMSingleLocation.swift
+//  RMOrigin.swift
 //  RickAndMortyApp
 //
 //  Created by Andrey Mukhin on 02.01.2023.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RMSingleLocation: Codable {
+struct RMOrigin: Codable {
     let name: String
-    let url: URL
+    let url: String
 }
